@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9bcc2c41-99de-46c1-94bb-5baa5251c91c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 193.04 46.99) (size 31.75 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1829169b-2de3-48c8-b2c3-f3a0e7599ed3)
+    (property "Sheetname" "Comms" (at 193.04 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Comms.kicad_sch" (at 193.04 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 193.04 115.57) (size 33.02 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4c6d39d9-cc58-468c-b6b1-7e9030440bf6)
+    (property "Sheetname" "ESC" (at 193.04 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ESC.kicad_sch" (at 193.04 146.6346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 113.03) (size 34.29 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 77ab72da-8036-4834-91c4-63a93a99768e)
+    (property "Sheetname" "Positioning" (at 44.45 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Positioning.kicad_sch" (at 44.45 150.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 45.72 43.18) (size 33.02 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7f4894d-c2f3-4432-84fe-76ba7008892e)
+    (property "Sheetname" "Power" (at 45.72 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 45.72 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
