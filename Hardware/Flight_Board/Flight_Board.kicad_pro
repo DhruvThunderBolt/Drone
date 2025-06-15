@@ -342,22 +342,6 @@
     [
       "4c6d39d9-cc58-468c-b6b1-7e9030440bf6",
       "ESC"
-    ],
-    [
-      "9525a01c-264b-4db8-be9f-5f2ff35adc89",
-      "Radio"
-    ],
-    [
-      "aa373163-07e8-4561-938b-d148ae6fba5f",
-      "Bluetooth"
-    ],
-    [
-      "79ed13df-5d8a-47ac-bc7a-5dc9ddfd02f6",
-      "GPS"
-    ],
-    [
-      "fdc75419-94a2-4b3d-985a-c38b738d394a",
-      "IMU"
     ]
   ],
   "text_variables": {}

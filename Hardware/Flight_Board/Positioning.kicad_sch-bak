@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2c66747b-9abc-4fa6-94c6-0b39b47ffcc3)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 41.91 41.91) (size 41.91 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 79ed13df-5d8a-47ac-bc7a-5dc9ddfd02f6)
+    (property "Sheetname" "GPS" (at 41.91 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "GPS.kicad_sch" (at 41.91 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c/77ab72da-8036-4834-91c4-63a93a99768e" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 190.5 60.96) (size 41.91 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fdc75419-94a2-4b3d-985a-c38b738d394a)
+    (property "Sheetname" "IMU" (at 190.5 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IMU.kicad_sch" (at 190.5 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c/77ab72da-8036-4834-91c4-63a93a99768e" (page "9"))
+      )
+    )
+  )
+)

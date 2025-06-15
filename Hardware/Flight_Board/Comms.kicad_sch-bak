@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7a75e0f7-9090-4e0f-bc36-8e4702dcf970)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 44.45 33.02) (size 46.99 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9525a01c-264b-4db8-be9f-5f2ff35adc89)
+    (property "Sheetname" "Radio" (at 44.45 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Radio.kicad_sch" (at 44.45 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c/1829169b-2de3-48c8-b2c3-f3a0e7599ed3" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 63.5) (size 34.29 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid aa373163-07e8-4561-938b-d148ae6fba5f)
+    (property "Sheetname" "Bluetooth" (at 111.76 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Bluetooth.kicad_sch" (at 111.76 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flight_Board"
+        (path "/9bcc2c41-99de-46c1-94bb-5baa5251c91c/1829169b-2de3-48c8-b2c3-f3a0e7599ed3" (page "7"))
+      )
+    )
+  )
+)
