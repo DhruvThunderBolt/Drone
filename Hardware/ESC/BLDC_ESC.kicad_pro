@@ -1,29 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-    "design_settings": {
-      "defaults": {
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
-        "other_line_width": 0.15,
-        "silk_line_width": 0.15,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
-      },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {
-        "min_copper_edge_clearance": 0.0,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
-      },
-      "track_widths": [],
-      "via_dimensions": []
-    },
     "layer_presets": [],
     "viewports": []
   },
@@ -247,7 +224,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Flight_Board.kicad_pro",
+    "filename": "BLDC_ESC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -264,9 +241,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -296,7 +273,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -324,28 +301,24 @@
   },
   "sheets": [
     [
-      "9bcc2c41-99de-46c1-94bb-5baa5251c91c",
+      "bd67e774-828f-47d6-928d-7f9ad42d6cab",
       ""
     ],
     [
-      "a7f4894d-c2f3-4432-84fe-76ba7008892e",
+      "0bf7d76f-f99b-4503-84a3-7b4d4ee9922c",
+      "MCU"
+    ],
+    [
+      "833552ae-4955-4bf3-a78a-8c8ee4e0e417",
+      "Interfacing"
+    ],
+    [
+      "d4b37276-72a9-4d7c-89c9-619733f12b9a",
+      "Mosfets"
+    ],
+    [
+      "dac7d52f-093d-43cb-8a30-f6f652ecb1a6",
       "Power"
-    ],
-    [
-      "1829169b-2de3-48c8-b2c3-f3a0e7599ed3",
-      "Comms"
-    ],
-    [
-      "77ab72da-8036-4834-91c4-63a93a99768e",
-      "Positioning"
-    ],
-    [
-      "4c6d39d9-cc58-468c-b6b1-7e9030440bf6",
-      "ESC"
-    ],
-    [
-      "d2352ff2-5787-495f-87c1-797b597b109f",
-      "Camera"
     ]
   ],
   "text_variables": {}
